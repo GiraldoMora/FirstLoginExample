@@ -2,9 +2,9 @@ body
 {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-family: "Arial";
-    font-size: 16px;
-    margin: 0;
+    font-family: "News Time Romans";
+    font-size: 17px;
+    margin: 5;
     padding: 0;
 }
 #container
@@ -12,11 +12,12 @@ body
     width: 70%;
     padding: 1em;
     text-align: left;
-    border: 1px solid #DDD;
+    border: 2px solid rgb(51, 51, 51);
     margin: 0 auto;
 }
 
-#container h1
+
+#cuerpo h1
 {
     font-size: 20px;
 }
