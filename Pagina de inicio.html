@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://kit.fontawesome.com/33fe3c7ffa.js" crossorigin="anonymous"></script>
         <meta charset= "UTF-8">
         <title> Pagina de inicio</title>
         <link rel="stylesheet" href="body.css" />
+        </head>
         <body>
             <div class="container2"> 
-                </div>
-                <div class="cabecera2">
             </div>
+            <div class="cabecera2">
+            </div>
+            <div class="divmain">
+                <a href="{{route('gerencia.index')}}">
+                    <div class="optionMenu">
+                        <div class="Opcion">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <h3>Gerencias</h3>
+                        </div>
+                    </a>
+                    <a href="{{route('equipos.index')}}">
+                        <div class="optionEquipos">
+                            <div class="Opcion">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <h3>Equipos</h3>
+                        </div>
+                </div>
         </body>
 </html>

@@ -123,3 +123,23 @@ font-weight: 700;
     border: 2px solid #D2B4DE;
     background-color: #AF7AC5;
 }
+
+.optionMenu{
+    width: 150px;
+    height: 550px;  
+    position: absolute;
+    top: 70px;
+    right:  1065px;
+
+}
+
+.optionEquipos{
+    width: 150px;
+    height: 550px;  
+    position: absolute;
+    top: 120px;
+    right:  1065px;
+
+}
+
+
