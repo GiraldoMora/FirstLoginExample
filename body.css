@@ -6,12 +6,18 @@
     font-family: 'Nunito', sans-serif;
 }
 
+body{
+
+    background: #3d3d3d;
+}
+
+
 .container{
-    width: 500px;
-    height: 500px;  
+    width: 800px;
+    height: 560px;  
     position: absolute;
-    top: 70px;
-    left: 350px;
+    top: 80px;
+    left: 250px;
     border-radius: 8px;
     display: flex;
     -webkit-box-shadow: 18px 22px 49px -15px rgba(0,0,0,0.79);
@@ -28,10 +34,19 @@
     border-bottom-left-radius: 8px;
 }
 
+    
+.register{
+    width: 50%;
+    height: 100%;    
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; 
+
+}
+
 .cabecera{
     width: 50%;
     height: 100%;
-    background: url(img/imagen\ fondo.webp);
+    background: url(img/miau.jpg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -40,24 +55,38 @@
     
 }
 
+
+.register h1{
+    position: relative;
+    top: 90px;
+    left: 105px;
+}
+
+.register p{
+    position: relative;
+    top: 90px;
+    left: 75px;
+}
+
 .login h1{
     position: relative;
     top: 90px;
-    left: 20px;
+    left: 105px;
+   
 }
 
 .login p{
     position: relative;
     top: 90px;
-    left: 20px;
+    left: 75px;
 }
 
-input[type= text], input[type= password]
+input[type= text], input[type= password], input[type= text]
 {
  position: relative;
- width: 50%;
+ width: 70%;
  top: 110px;
- left: 50px;
+ left: 55px;
  margin-top: 10px;
  border-radius: 8px;
  box-sizing: border-box;
@@ -71,12 +100,26 @@ input[type= submit]
  position: relative;
  top: 150px;
  height: auto;
- width: 80%;
+ width: 52%;
  padding: 10px;
-background-color: aqua;
-border-radius: 15px;
-left: 15px;
-color: #000;
+background-color: #186A3B; 
+border-radius: 20px;        
+left: 90px;
+color: rgb(255, 255, 255);
 font-weight: 700;
 }
 
+.container2{
+    width: 150px;
+    height: 550px;  
+    position: absolute;
+    top: 60px;
+    right:  1090px;
+    border-radius: 8px;
+    -webkit-box-shadow: 18px 22px 49px -15px rgba(0,0,0,0.79);
+    -moz-box-shadow: 18px 22px 49px -15px rgba(0,0,0,0.79);
+    box-shadow: 18px 22px 49px -15px rgba(0,0,0,0.79);
+    box-sizing: border-box;
+    border: 2px solid #D2B4DE;
+    background-color: #AF7AC5;
+}
